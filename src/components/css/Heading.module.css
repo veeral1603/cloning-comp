@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+.headingLg {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+}
+.headingLg h2 {
+  font-size: 56px;
+  color: #333333;
+  line-height: 84px;
+  font-weight: 500;
+}
+
+.headingLg p {
+  color: #414d60;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}

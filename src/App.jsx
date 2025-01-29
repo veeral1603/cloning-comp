@@ -1,12 +1,28 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import Heading from "./components/Heading";
+import HeroSection from "./components/HeroSection";
+import TabSection from "./components/TabSection";
 
 function App() {
-  const [count, setCount] = useState(0);
+  return (
+    <>
+      <HeroSection />
 
-  return <></>;
+      <Heading
+        subtext={
+          "Find the best master for your company and boosts your business 10x!"
+        }
+        lineheight={64}
+        paddingBlock="30px"
+      >
+        Discover the
+        <br />
+        Emerging Masters.
+      </Heading>
+
+      <TabSection />
+    </>
+  );
 }
 
 export default App;

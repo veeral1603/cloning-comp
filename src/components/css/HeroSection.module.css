@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+.heroSection {
+  font-family: "Manrope", sans-serif;
+  padding-block: 30px;
+  height: auto;
+  width: 100vw;
+  background-image: linear-gradient(180deg, white, rgb(47, 0, 255));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-block-start: 50px;
+}
+
+.headingContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.headingContainer .headerTag {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: auto;
+  color: #002b6b;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
